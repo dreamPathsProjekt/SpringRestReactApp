@@ -24,9 +24,10 @@ public class DatabaseLoader implements CommandLineRunner {
 		dummyEmployee.setDescription("Full-suck developer");
 		dummy2.setFirstName("Test");
 		dummy2.setLastName("Value");
-		dummy2.setDescription("Full-suck developer too");
+		dummy2.setDescription("Full-suck developer too"); 
 		this.repository.save(dummyEmployee);
 		this.repository.save(dummy2);
+
 	}
 
 }
